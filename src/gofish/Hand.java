@@ -8,16 +8,15 @@ package gofish;
  *
  * @author tenes
  */
-public class GoFishGame {
-    public static void main(String[] args) {
-        
-        
-        Deck deck = new Deck();
-        
-        deck.createDeck();
-            
-        System.out.println(deck.showCard(0).toString());
+public class Hand extends Deck{
     
+    public void draw(Deck draw){
+    
+    public void draw(Deck draw){
+    
+    this.deck.add(draw.getCard(0));
     }
-        
     }
+    
+    
+}
