@@ -10,13 +10,8 @@ package gofish;
  */
 public class Hand extends Deck{
     
-    public void draw(Deck draw){
+    public void draw(Deck draw)
+    {
     
-    public void draw(Deck draw){
-    
-    this.deck.add(draw.getCard(0));
     }
-    }
-    
-    
 }

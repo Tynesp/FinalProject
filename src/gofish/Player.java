@@ -9,5 +9,9 @@ package gofish;
  * @author tenes
  */
 public class Player {
-    
+    private String name;
+    public void player(String name)
+    {
+        this.name = name;
+    }
 }

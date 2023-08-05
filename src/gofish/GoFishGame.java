@@ -8,16 +8,21 @@ package gofish;
  *
  * @author tenes
  */
+//this where the game will be played. Or where you can test your methods
 public class GoFishGame {
     public static void main(String[] args) {
         
-        
-        Deck deck = new Deck();
-        
-        deck.createDeck();
-            
-        System.out.println(deck.showCard(0).toString());
+      Deck cards = new Deck();
+      
+      cards.createDeck();
+       cards.showTheDeck();
+    
+     
+         
+     }
     
     }
+    
+    
         
-    }
+    
