@@ -4,14 +4,13 @@
  */
 package gofish;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author tenes
  */
 public class Hand extends Deck{
-    
-    public void draw(Deck draw)
-    {
-    
-    }
+     protected ArrayList<Card> hand ;
+ 
 }
