@@ -10,5 +10,15 @@ package gofish;
  *///rules of the game.
 public class GoFish {
 
+        public void askForACard()
+        {
+        //choose a card from your hand.
+            
+            //compare that card to the oppenents hand
+            
+            //if card matches a card from the opponents hand
+            
+            //if the card doesn't match the opponents hand.
+        }
   
 }
