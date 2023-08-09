@@ -39,4 +39,7 @@ public class Player {
     {
         return ++books;
     }
+    public String toString(){
+    return "Player: " + name + " Books: " + books;
+    }
 }

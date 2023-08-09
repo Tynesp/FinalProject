@@ -4,13 +4,15 @@
  */
 package gofish;
 
+
+
 /**
  *
  * @author tenes
  *///rules of the game.
 public class GoFish {
 
-        public void askForACard()
+        public void askForACard() //This may have to be in hand class or deck class you choose.
         {
         //choose a card from your hand.
             
@@ -20,5 +22,12 @@ public class GoFish {
             
             //if the card doesn't match the opponents hand.
         }
-  
+        //method to check the opening hand for books
+      public void checkOpeningHand(){
+      
+      
+      }
+      
+        
 }
+  

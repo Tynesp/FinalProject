@@ -51,9 +51,10 @@ public class Hand extends Deck{
  //Work on this next time.
  public void fillHand(Deck draw)
  {
-     if(this.deck.size() == 7)
+     for(int  i = 0; i<7 ; i++ ){
  this.deck.add(draw.getCard(0));
  draw.removeCard(0);
  }
+}
 
 }
